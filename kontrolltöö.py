@@ -1,11 +1,16 @@
-for x in range(5):
-     print (x,end=", ")
 #5 задание
 k=7
 c=2
-while k != 1:
-    k // 2
-    print()
+a=0
+g=0
+b=0
+while g==0:
+    a=k - c
+    k=a
+    b+=1
+    if a==1:
+        g+=1
+print(a,b)
 #1 задание
 a = ["  ^---^   "]
 b = [" ( o o )  "]
